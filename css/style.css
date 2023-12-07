@@ -4,7 +4,8 @@
   --bg-color: black;
 }
 body {
-  font-family: Oswald Regular;
+  font-family: Oswald;
+  background-color: #171717;
 }
 .header-logo {
   width: 199px;
@@ -14,9 +15,7 @@ body {
 }
 .header-link {
   color: var(--white-1, #fff);
-  font-family: Oswald;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 120%;
   text-transform: uppercase;
@@ -24,9 +23,7 @@ body {
 .header-btn {
   color: #171717;
   text-align: center;
-  font-family: Oswald;
   font-size: 18px;
-  font-style: normal;
   font-weight: 400;
   line-height: 120%;
   letter-spacing: 0.36px;
@@ -35,18 +32,14 @@ body {
 .hero-title {
   width: 920px;
   color: #fff;
-  font-family: Oswald;
   font-size: 128px;
-  font-style: normal;
   font-weight: 500;
   line-height: 100%;
 }
 .achievements-subtitle {
   color: var(--white-1, #fff);
   text-align: center;
-  font-family: Oswald;
   font-size: 16px;
-  font-style: normal;
   font-weight: 300;
   line-height: 120%;
   text-transform: uppercase;
@@ -54,9 +47,7 @@ body {
 .achievements-title {
   width: 542px;
   color: var(--white-1, #fff);
-  font-family: Oswald;
   font-size: 40px;
-  font-style: normal;
   font-weight: 400;
   line-height: 120%;
   letter-spacing: 1.6px;
@@ -65,7 +56,6 @@ body {
   color: #fff;
   font-family: Open Sans;
   font-size: 64px;
-  font-style: normal;
   font-weight: 700;
   line-height: 140%;
   letter-spacing: 2.56px;
@@ -75,7 +65,6 @@ body {
   color: var(--white-1, #fff);
   font-family: Open Sans;
   font-size: 24px;
-  font-style: normal;
   font-weight: 600;
   line-height: 140%;
   letter-spacing: 0.96px;
@@ -83,9 +72,7 @@ body {
 .services-paragraph {
   color: var(--white-1, #fff);
   text-align: center;
-  font-family: Oswald;
   font-size: 16px;
-  font-style: normal;
   font-weight: 300;
   line-height: 120%;
   text-transform: uppercase;
@@ -93,10 +80,194 @@ body {
 .services-title {
   width: 540px;
   color: var(--white-1, #fff);
-  font-family: Oswald;
   font-size: 40px;
-  font-style: normal;
   font-weight: 400;
   line-height: 120%;
   letter-spacing: 1.6px;
+}
+.services-number {
+  position: absolute;
+  top: 22px;
+  color: var(--white-1, #fff);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.services-subtitle {
+  color: var(--white-1, #fff);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.24px;
+}
+.services-text {
+  width: 324px;
+  color: var(--white-1, #fff);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 140%;
+  letter-spacing: 0.64px;
+}
+.works-subtitle {
+  color: var(--white-1, #fff);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.works-title {
+  width: 538.544px;
+  color: var(--white-1, #fff);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 1.6px;
+}
+.works-text {
+  color: #555;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+}
+.works-text-white {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+}
+.works-paragraph {
+  color: var(--black-1, #171717);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.64px;
+  align-self: stretch;
+}
+.works-codi {
+  color: var(--black-1, #171717);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.advantages-subtitle {
+  color: var(--white-1, #fff);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.advantages-title {
+  width: 540px;
+  color: var(--white-1, #fff);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 1.6px;
+}
+.advantages-number {
+  color: var(--white-1, #fff);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.advantages-text {
+  color: var(--white-1, #fff);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.24px;
+}
+.advantages-paragraph {
+  height: 141px;
+  flex-shrink: 0;
+  align-self: stretch;
+  color: var(--white-1, #fff);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 140%;
+  letter-spacing: 0.64px;
+}
+.advantages-btn {
+  color: var(--black-1, #171717);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+}
+.feedback-title {
+  color: var(--white-1, #fff);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.feedback-text {
+  width: 920px;
+  color: var(--white-1, #fff);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 1.6px;
+}
+.feedback-name {
+  color: var(--white-1, #fff);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.feedback-paragraph {
+  color: var(--white-1, #fff);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.form-title {
+  color: var(--black-1, #171717);
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 1.6px;
+}
+.form-mail,
+form-phone,
+form-comment {
+  color: var(--grey-2, #686868);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+}
+.form-btn {
+  color: var(--white-1, #fff);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+}
+.footer-logo {
+  color: var(--grey-40, #9a9a9a);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0.1px;
 }
