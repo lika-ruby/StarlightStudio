@@ -1,0 +1,102 @@
+:root {
+  --title-color: #fff;
+  --text-color: var(--white-1, #fff);
+  --bg-color: black;
+}
+body {
+  font-family: Oswald Regular;
+}
+.header-logo {
+  width: 199px;
+  height: 36px;
+  flex-shrink: 0;
+  fill: var(--white-1, #fff);
+}
+.header-link {
+  color: var(--white-1, #fff);
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.header-btn {
+  color: #171717;
+  text-align: center;
+  font-family: Oswald;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 0.36px;
+  text-transform: uppercase;
+}
+.hero-title {
+  width: 920px;
+  color: #fff;
+  font-family: Oswald;
+  font-size: 128px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 100%;
+}
+.achievements-subtitle {
+  color: var(--white-1, #fff);
+  text-align: center;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.achievements-title {
+  width: 542px;
+  color: var(--white-1, #fff);
+  font-family: Oswald;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 1.6px;
+}
+.achievements-number {
+  color: #fff;
+  font-family: Open Sans;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+  letter-spacing: 2.56px;
+}
+.achievements-text {
+  width: 318px;
+  color: var(--white-1, #fff);
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 0.96px;
+}
+.services-paragraph {
+  color: var(--white-1, #fff);
+  text-align: center;
+  font-family: Oswald;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 120%;
+  text-transform: uppercase;
+}
+.services-title {
+  width: 540px;
+  color: var(--white-1, #fff);
+  font-family: Oswald;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+  letter-spacing: 1.6px;
+}

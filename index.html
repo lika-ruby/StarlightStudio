@@ -4,78 +4,96 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StarlightStudio</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Oswald:wght@300;400;500&family=Roboto:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Oswald:wght@300;400;500&display=swap"
       rel="stylesheet"
     />
-    <!-- <style>
-      body {
-        background-color: black;
-      }
-    </style> -->
   </head>
 
   <body>
-    <header>
-      <a href="./index.html">
-        <img src="./images/stars.png" alt="stars" />
-        <img src="./images/logo.png" alt="logo" />
+    <header class="header">
+      <a class="header-logo" href="./index.html">
+        <img class="header-img" src="./images/stars.png" alt="stars" />
+        <img class="header-img" src="./images/logo.png" alt="logo" />
       </a>
-      <nav>
-        <ul>
-          <li><a href="">achievements</a></li>
-          <li><a href="">services</a></li>
-          <li><a href="">advantages</a></li>
-          <li><a href="">Projects</a></li>
+      <nav class="header-navigation">
+        <ul class="header-list">
+          <li class="header-item">
+            <a class="header-link" href="">achievements</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="">services</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="">advantages</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link" href="">Projects</a>
+          </li>
         </ul>
-        <a href="">Get in touch</a>
+        <a class="header-btn" href="">Get in touch</a>
       </nav>
     </header>
     <main>
       <!-- hero section -->
-      <section>
-        <h1>Turn your business into an online leader</h1>
+      <section class="hero-section">
+        <h1 class="hero-title">Turn your business into an online leader</h1>
       </section>
       <!-- achievements -->
-      <section>
-        <h2>achievements</h2>
-        <h2>A testimony of our expertise and dedication</h2>
-        <ul>
-          <li>
-            <article>
-              <span>300+</span>
-              <h3>Long-term client relationships</h3>
+      <section class="achievements-section">
+        <h2 class="achievements-subtitle">achievements</h2>
+        <h2 class="achievements-title">
+          A testimony of our expertise and dedication
+        </h2>
+        <ul class="achievements-list">
+          <li class="achievements-item">
+            <article class="achievements-article">
+              <span class="achievements-number">300+</span>
+              <h3 class="achievements-text">Long-term client relationships</h3>
             </article>
           </li>
-          <li>
-            <article>
-              <span>500+</span>
-              <h3>Created webproducts</h3>
+          <li class="achievements-item">
+            <article class="achievements-article">
+              <span class="achievements-number">500+</span>
+              <h3 class="achievements-text">Created webproducts</h3>
             </article>
           </li>
-          <li>
-            <article>
-              <span>150+</span>
-              <h3>Awards</h3>
+          <li class="achievements-item">
+            <article class="achievements-article">
+              <span class="achievements-number">150+</span>
+              <h3 class="achievements-text">Awards</h3>
             </article>
           </li>
         </ul>
       </section>
       <!-- services -->
-      <section>
-        <h2>
+      <section class="services">
+        <h2 class="services-paragraph">services</h2>
+        <h2 class="services-title">
           We offer a wide range of services, allowing us to provide a full cycle
           of website development and support
         </h2>
-        <ul>
-          <li>
-            <h3>01</h3>
-            <h3>Strategy and consulting</h3>
-            <p>
+        <ul class="services-list">
+          <li class="services-item">
+            <h3 class="services-number">01</h3>
+            <h3 class="services-subtitle">Strategy and consulting</h3>
+            <p class="services-text">
               Our studio provide strategic guidance to clients, helping them to
               identify their goals and develop a roadmap for achieving them.
             </p>
@@ -92,9 +110,9 @@
               />
             </svg>
           </li>
-          <li>
-            <h3>01</h3>
-            <h3>Research</h3>
+          <li class="services-item">
+            <h3 class="services-number">01</h3>
+            <h3 class="services-subtitle">Research</h3>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="22"
@@ -108,9 +126,9 @@
               />
             </svg>
           </li>
-          <li>
-            <h3>03</h3>
-            <h3>Branding</h3>
+          <li class="services-item">
+            <h3 class="services-number">03</h3>
+            <h3 class="services-subtitle">Branding</h3>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="22"
@@ -124,9 +142,9 @@
               />
             </svg>
           </li>
-          <li>
-            <h3>04</h3>
-            <h3>Website design</h3>
+          <li class="services-item">
+            <h3 class="services-number">04</h3>
+            <h3 class="services-subtitle">Website design</h3>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="22"
@@ -140,9 +158,9 @@
               />
             </svg>
           </li>
-          <li>
-            <h3>05</h3>
-            <h3>Website support</h3>
+          <li class="services-item">
+            <h3 class="services-number">05</h3>
+            <h3 class="services-subtitle">Website support</h3>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="22"
@@ -159,12 +177,14 @@
         </ul>
       </section>
       <!-- latest works -->
-      <section>
-        <h2>latest works</h2>
-        <h2>Discover our diverse portfolio of cutting-edge projects.</h2>
-        <ul>
-          <li>
-            <p>Mobile application</p>
+      <section class="works">
+        <h2 class="works-subtitle">latest works</h2>
+        <h2 class="works-title">
+          Discover our diverse portfolio of cutting-edge projects.
+        </h2>
+        <ul class="works-list">
+          <li class="works-item">
+            <p class="works-text">Mobile application</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="26"
@@ -221,8 +241,8 @@
               </defs>
             </svg>
           </li>
-          <li>
-            <p>Web services</p>
+          <li class="works-item">
+            <p class="works-text">Web services</p>
           </li>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -279,69 +299,71 @@
               </filter>
             </defs>
           </svg>
-          <li>
-            <p>Landing pages</p>
+          <li class="works-item">
+            <p class="works-text">Landing pages</p>
           </li>
         </ul>
-        <img src="./images/girl.png" />
-        <h2>Codi</h2>
-        <p>
+        <img class="works-img" src="./images/girl.png" />
+        <h2 class="works-subtitle">Codi</h2>
+        <p class="works-text">
           This web project for a clothing store «CODI» is a convenient online
           store with an intuitive interface that simplifies the process of
           choosing and buying fashionable clothes online as much as possible.
         </p>
       </section>
       <!-- advantages -->
-      <section>
-        <h2>advantages</h2>
-        <h2>Unleash your business potential with our web studio</h2>
+      <section class="advantages">
+        <h2 class="advantages-subtitle">advantages</h2>
+        <h2 class="advantages-title">
+          Unleash your business potential with our web studio
+        </h2>
 
-        <ul>
-          <li>
+        <ul class="advantages-list">
+          <li class="advantages-item">
             <img src="./images/adventagesfoto.png" alt="element" />
           </li>
-          <li>
-            <span>01</span>
-            <h3>Individual approach</h3>
-            <p>
+          <li class="advantages-item">
+            <span class="advantages-number">01</span>
+            <h3 class="advantages-text">Individual approach</h3>
+            <p class="advantages-paragraph">
               We work with each client individually to understand their needs
               and wants and create a website that meets all their objectives.
             </p>
           </li>
-          <li>
-            <span>02</span>
-            <h3>Professional design</h3>
-            <p>
+          <li class="advantages-item">
+            <span class="advantages-number">02</span>
+            <h3 class="advantages-text">Professional design</h3>
+            <p class="advantages-paragraph">
               Our designers create a unique and attractive website design that
               reflects the client's brand and attracts the attention of
               potential customers.
             </p>
           </li>
-          <li>
-            <span>03</span>
-            <h3>High quality</h3>
-            <p>
+          <li class="advantages-item">
+            <span class="advantages-number">03</span>
+            <h3 class="advantages-text">High quality</h3>
+            <p class="advantages-paragraph">
               We use the latest technology and best development practices to
               ensure a professional and efficient result.
             </p>
           </li>
-          <li>
-            <span>04</span>
-            <h3>Flexibility and speed</h3>
-            <p>
+          <li class="advantages-item">
+            <span class="advantages-number">04</span>
+            <h3 class="advantages-text">Flexibility and speed</h3>
+            <p class="advantages-paragraph">
               We work quickly and flexibly to provide our customers with
               effective and efficient solutions.
             </p>
           </li>
-          <li>
-            <span>05</span>
-            <h3>Performance</h3>
-            <p>
+          <li class="advantages-item">
+            <span class="advantages-number">05</span>
+            <h3 class="advantages-text">Performance</h3>
+            <p class="advantages-paragraph">
               Our websites help our clients attract new customers and increase
               sales, making our web studio the best choice for business.
             </p>
           </li>
-          <li>
+          <li class="advantages-item">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="34"
@@ -354,48 +376,52 @@
                 fill="#171717"
               />
             </svg>
-            <p>Get in touch</p>
+            <p class="advantages-btn">Get in touch</p>
           </li>
         </ul>
       </section>
       <!-- Feedback from clients -->
-      <section>
-        <h2>Feedback from clients</h2>
-        <h2>
+      <section class="feedback">
+        <h2 class="feedback-title">Feedback from clients</h2>
+        <h2 class="feedback-text">
           «We received high-quality and qualified work. We are very grateful to
           these guys. The result was a high-quality web product that increased
           our sales. We immediately found mutual understanding»
         </h2>
-        <p>Jerome Bell</p>
-        <p>CEO, CODI</p>
-        <img src="./images/arrow1.png" alt="arrow" />
-        <img src="./images/arrow1.png" alt="arrow" />
+        <p class="feedback-name">Jerome Bell</p>
+        <p class="feedback-paragraph">CEO, CODI</p>
+        <img class="feedback-img" src="./images/arrow1.png" alt="arrow" />
+        <img class="feedback-img" src="./images/arrow1.png" alt="arrow" />
       </section>
       <!-- questions -->
-      <section>
+      <section class="form">
         <form action="">
-          <h2>Let’s discuss your question</h2>
-          <input type="mail" placeholder="E-mail" />
-          <input type="phone" placeholder="Phone" />
-          <input type="comment" placeholder="Comment" />
-          <button type="submit">Send</button>
+          <h2 class="form-title">Let’s discuss your question</h2>
+          <input class="form-mail" type="mail" placeholder="E-mail" />
+          <input class="form-phone" type="phone" placeholder="Phone" />
+          <input class="form-comment" type="comment" placeholder="Comment" />
+          <button class="form-btn" type="submit">Send</button>
         </form>
       </section>
     </main>
-    <footer>
-      <a href="./index.html">
-        <img src="./images/stars.png" alt="stars" />
-        <img src="./images/logo.png" alt="logo" />
+    <footer class="footer">
+      <a class="footer-link" href="./index.html">
+        <img class="footer-img" src="./images/stars.png" alt="stars" />
+        <img class="footer-img" src="./images/logo.png" alt="logo" />
       </a>
-      <ul>
-        <li>
-          <img src="./images/facebook.png" alt="facebook" />
+      <ul class="list">
+        <li class="footer-item">
+          <img class="footer-img" src="./images/facebook.png" alt="facebook" />
         </li>
-        <li>
-          <img src="./images/instagram.png" alt="instagram" />
+        <li class="footer-item">
+          <img
+            class="footer-img"
+            src="./images/instagram.png"
+            alt="instagram"
+          />
         </li>
-        <li>
-          <img src="./images/youtube.png" alt="youtobe" />
+        <li class="footer-item">
+          <img class="footer-img" src="./images/youtube.png" alt="youtube" />
         </li>
       </ul>
       <p><span>&#169;</span>2023 StarlightStudio</p>
