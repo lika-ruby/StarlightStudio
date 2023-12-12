@@ -5,15 +5,27 @@
   --contacts-color: #686868;
   --logo-color: #9a9a9a;
 }
+
 body {
   font-family: Oswald;
   background-color: #171717;
 }
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 1140px;
+  outline: solid red;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .header-logo {
   width: 199px;
   height: 36px;
   fill: var(--white-1, #fff);
 }
+
 .header-link {
   color: var(--text-color, #fff);
   font-size: 16px;
@@ -21,6 +33,7 @@ body {
   line-height: 120%;
   text-transform: uppercase;
 }
+
 .header-btn {
   color: #171717;
   text-align: center;
@@ -30,6 +43,7 @@ body {
   letter-spacing: 0.36px;
   text-transform: uppercase;
 }
+
 .hero-title {
   width: 920px;
   color: #fff;
@@ -37,6 +51,7 @@ body {
   font-weight: 500;
   line-height: 100%;
 }
+
 .achievements-subtitle {
   color: var(--text-color, #fff);
   text-align: center;
@@ -45,6 +60,7 @@ body {
   line-height: 120%;
   text-transform: uppercase;
 }
+
 .achievements-title {
   width: 542px;
   color: var(--text-color, #fff);
@@ -53,6 +69,7 @@ body {
   line-height: 120%;
   letter-spacing: 1.6px;
 }
+
 .achievements-number {
   color: #fff;
   font-family: Open Sans;
@@ -61,6 +78,7 @@ body {
   line-height: 140%;
   letter-spacing: 2.56px;
 }
+
 .achievements-text {
   width: 318px;
   color: var(--text-color, #fff);
@@ -70,6 +88,7 @@ body {
   line-height: 140%;
   letter-spacing: 0.96px;
 }
+
 .services-paragraph {
   color: var(--text-color, #fff);
   text-align: center;
@@ -78,6 +97,7 @@ body {
   line-height: 120%;
   text-transform: uppercase;
 }
+
 .services-title {
   width: 540px;
   color: var(--text-color, #fff);
@@ -86,6 +106,7 @@ body {
   line-height: 120%;
   letter-spacing: 1.6px;
 }
+
 .services-number {
   position: absolute;
   top: 22px;
@@ -95,6 +116,7 @@ body {
   line-height: 120%;
   text-transform: uppercase;
 }
+
 .services-subtitle {
   color: var(--text-color, #fff);
   font-size: 24px;
@@ -102,6 +124,7 @@ body {
   line-height: 140%;
   letter-spacing: 0.24px;
 }
+
 .services-text {
   width: 324px;
   color: var(--text-color, #fff);
@@ -111,6 +134,7 @@ body {
   line-height: 140%;
   letter-spacing: 0.64px;
 }
+
 .works-subtitle {
   color: var(--text-color, #fff);
   font-size: 16px;
@@ -118,6 +142,7 @@ body {
   line-height: 120%;
   text-transform: uppercase;
 }
+
 .works-title {
   width: 538.544px;
   color: var(--text-color, #fff);
@@ -126,6 +151,7 @@ body {
   line-height: 120%;
   letter-spacing: 1.6px;
 }
+
 .works-text {
   color: #555;
   font-size: 18px;
@@ -134,6 +160,7 @@ body {
   letter-spacing: 0.36px;
   text-transform: uppercase;
 }
+
 .works-text-white {
   color: #fff;
   font-size: 18px;
@@ -142,6 +169,7 @@ body {
   letter-spacing: 0.36px;
   text-transform: uppercase;
 }
+
 .works-paragraph {
   color: var(--bg-color, #171717);
   font-family: Open Sans;
@@ -151,6 +179,7 @@ body {
   letter-spacing: 0.64px;
   align-self: stretch;
 }
+
 .works-codi {
   color: var(--bg-color, #171717);
   font-size: 20px;
@@ -158,6 +187,7 @@ body {
   line-height: 120%;
   text-transform: uppercase;
 }
+
 .advantages-subtitle {
   color: var(--text-color, #fff);
   text-align: center;
@@ -166,6 +196,7 @@ body {
   line-height: 120%;
   text-transform: uppercase;
 }
+
 .advantages-title {
   width: 540px;
   color: var(--text-color, #fff);
@@ -174,6 +205,7 @@ body {
   line-height: 120%;
   letter-spacing: 1.6px;
 }
+
 .advantages-number {
   color: var(--text-color, #fff);
   font-size: 16px;
@@ -181,6 +213,7 @@ body {
   line-height: 120%;
   text-transform: uppercase;
 }
+
 .advantages-text {
   color: var(--text-color, #fff);
   font-size: 24px;
@@ -188,6 +221,7 @@ body {
   line-height: 140%;
   letter-spacing: 0.24px;
 }
+
 .advantages-paragraph {
   height: 141px;
   flex-shrink: 0;
@@ -199,6 +233,7 @@ body {
   line-height: 140%;
   letter-spacing: 0.64px;
 }
+
 .advantages-btn {
   color: var(--bg-color, #171717);
   font-size: 18px;
@@ -207,6 +242,7 @@ body {
   letter-spacing: 0.36px;
   text-transform: uppercase;
 }
+
 .feedback-title {
   color: var(--text-color, #fff);
   text-align: center;
@@ -215,6 +251,7 @@ body {
   line-height: 120%;
   text-transform: uppercase;
 }
+
 .feedback-text {
   width: 920px;
   color: var(--text-color, #fff);
@@ -223,6 +260,7 @@ body {
   line-height: 120%;
   letter-spacing: 1.6px;
 }
+
 .feedback-name {
   color: var(--text-color, #fff);
   font-size: 16px;
@@ -230,6 +268,7 @@ body {
   line-height: 120%;
   text-transform: uppercase;
 }
+
 .feedback-paragraph {
   color: var(--text-color, #fff);
   font-size: 16px;
@@ -237,6 +276,7 @@ body {
   line-height: 120%;
   text-transform: uppercase;
 }
+
 .form-title {
   color: var(--bg-color, #171717);
   font-size: 40px;
@@ -244,6 +284,7 @@ body {
   line-height: 120%;
   letter-spacing: 1.6px;
 }
+
 .form-mail,
 form-phone,
 form-comment {
@@ -254,6 +295,7 @@ form-comment {
   letter-spacing: 0.36px;
   text-transform: uppercase;
 }
+
 .form-btn {
   color: var(--text-color, #fff);
   text-align: center;
@@ -263,6 +305,7 @@ form-comment {
   letter-spacing: 0.36px;
   text-transform: uppercase;
 }
+
 .footer-logo {
   color: var(--logo-color, #9a9a9a);
   text-align: center;
