@@ -12,8 +12,12 @@ body {
 .header-logo {
   width: 199px;
   height: 36px;
+<<<<<<< Updated upstream
   flex-shrink: 0;
   fill: var(--text-color, #fff);
+=======
+  fill: var(--white-1, #fff);
+>>>>>>> Stashed changes
 }
 .header-link {
   color: var(--text-color, #fff);
