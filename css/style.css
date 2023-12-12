@@ -2,6 +2,8 @@
   --title-color: #fff;
   --text-color: var(--white-1, #fff);
   --bg-color: black;
+  --contacts-color: #686868;
+  --logo-color: #9a9a9a;
 }
 body {
   font-family: Oswald;
@@ -11,10 +13,10 @@ body {
   width: 199px;
   height: 36px;
   flex-shrink: 0;
-  fill: var(--white-1, #fff);
+  fill: var(--text-color, #fff);
 }
 .header-link {
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   font-size: 16px;
   font-weight: 500;
   line-height: 120%;
@@ -37,7 +39,7 @@ body {
   line-height: 100%;
 }
 .achievements-subtitle {
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   text-align: center;
   font-size: 16px;
   font-weight: 300;
@@ -46,7 +48,7 @@ body {
 }
 .achievements-title {
   width: 542px;
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   font-size: 40px;
   font-weight: 400;
   line-height: 120%;
@@ -62,7 +64,7 @@ body {
 }
 .achievements-text {
   width: 318px;
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   font-family: Open Sans;
   font-size: 24px;
   font-weight: 600;
@@ -70,7 +72,7 @@ body {
   letter-spacing: 0.96px;
 }
 .services-paragraph {
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   text-align: center;
   font-size: 16px;
   font-weight: 300;
@@ -79,7 +81,7 @@ body {
 }
 .services-title {
   width: 540px;
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   font-size: 40px;
   font-weight: 400;
   line-height: 120%;
@@ -88,14 +90,14 @@ body {
 .services-number {
   position: absolute;
   top: 22px;
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   font-size: 20px;
   font-weight: 500;
   line-height: 120%;
   text-transform: uppercase;
 }
 .services-subtitle {
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   font-size: 24px;
   font-weight: 400;
   line-height: 140%;
@@ -103,7 +105,7 @@ body {
 }
 .services-text {
   width: 324px;
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 300;
@@ -111,7 +113,7 @@ body {
   letter-spacing: 0.64px;
 }
 .works-subtitle {
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   font-size: 16px;
   font-weight: 300;
   line-height: 120%;
@@ -119,7 +121,7 @@ body {
 }
 .works-title {
   width: 538.544px;
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   font-size: 40px;
   font-weight: 400;
   line-height: 120%;
@@ -142,7 +144,7 @@ body {
   text-transform: uppercase;
 }
 .works-paragraph {
-  color: var(--black-1, #171717);
+  color: var(--bg-color, #171717);
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;
@@ -151,14 +153,14 @@ body {
   align-self: stretch;
 }
 .works-codi {
-  color: var(--black-1, #171717);
+  color: var(--bg-color, #171717);
   font-size: 20px;
   font-weight: 400;
   line-height: 120%;
   text-transform: uppercase;
 }
 .advantages-subtitle {
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   text-align: center;
   font-size: 16px;
   font-weight: 300;
@@ -167,21 +169,21 @@ body {
 }
 .advantages-title {
   width: 540px;
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   font-size: 40px;
   font-weight: 400;
   line-height: 120%;
   letter-spacing: 1.6px;
 }
 .advantages-number {
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   font-size: 16px;
   font-weight: 300;
   line-height: 120%;
   text-transform: uppercase;
 }
 .advantages-text {
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   font-size: 24px;
   font-weight: 400;
   line-height: 140%;
@@ -191,7 +193,7 @@ body {
   height: 141px;
   flex-shrink: 0;
   align-self: stretch;
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   font-family: Open Sans;
   font-size: 16px;
   font-weight: 400;
@@ -199,7 +201,7 @@ body {
   letter-spacing: 0.64px;
 }
 .advantages-btn {
-  color: var(--black-1, #171717);
+  color: var(--bg-color, #171717);
   font-size: 18px;
   font-weight: 400;
   line-height: 120%;
@@ -207,7 +209,7 @@ body {
   text-transform: uppercase;
 }
 .feedback-title {
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   text-align: center;
   font-size: 16px;
   font-weight: 300;
@@ -216,28 +218,28 @@ body {
 }
 .feedback-text {
   width: 920px;
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   font-size: 40px;
   font-weight: 400;
   line-height: 120%;
   letter-spacing: 1.6px;
 }
 .feedback-name {
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   font-size: 16px;
   font-weight: 500;
   line-height: 120%;
   text-transform: uppercase;
 }
 .feedback-paragraph {
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   font-size: 16px;
   font-weight: 300;
   line-height: 120%;
   text-transform: uppercase;
 }
 .form-title {
-  color: var(--black-1, #171717);
+  color: var(--bg-color, #171717);
   font-size: 40px;
   font-weight: 400;
   line-height: 120%;
@@ -246,7 +248,7 @@ body {
 .form-mail,
 form-phone,
 form-comment {
-  color: var(--grey-2, #686868);
+  color: var(--contacts-color) #686868;
   font-size: 18px;
   font-weight: 400;
   line-height: 120%;
@@ -254,7 +256,7 @@ form-comment {
   text-transform: uppercase;
 }
 .form-btn {
-  color: var(--white-1, #fff);
+  color: var(--text-color, #fff);
   text-align: center;
   font-size: 18px;
   font-weight: 400;
@@ -263,7 +265,7 @@ form-comment {
   text-transform: uppercase;
 }
 .footer-logo {
-  color: var(--grey-40, #9a9a9a);
+  color: var(--logo-color, #9a9a9a);
   text-align: center;
   font-family: Roboto;
   font-size: 14px;
