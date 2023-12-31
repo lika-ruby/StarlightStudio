@@ -20,10 +20,23 @@ body {
   margin-right: auto;
 }
 
+header{
+  padding-top: 24px;
+}
+
 .header-logo {
+  display: flex;
   width: 199px;
   height: 36px;
   fill: var(--white-1, #fff);
+  margin-right: 151px;
+}
+
+.header-list{
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin-right: 237px;
 }
 
 .header-link {
@@ -35,6 +48,7 @@ body {
 }
 
 .header-btn {
+  display: block;
   color: #171717;
   text-align: center;
   font-size: 18px;
@@ -42,6 +56,32 @@ body {
   line-height: 120%;
   letter-spacing: 0.36px;
   text-transform: uppercase;
+  background-color: #FFF;
+  border-radius: 24px;
+  border: none;
+  padding: 16px 24px;
+}
+
+.header-navigation{
+  display: flex;
+  align-items: center;
+}
+
+.header-container{
+  display: flex;
+  align-items: center;
+}
+
+.header-svg{
+  margin-right: 8px;
+}
+
+.hero-section{
+  padding-top: 130px;
+  padding-bottom: 208px;
+  background-image: url(../images/backgroundhero.png);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .hero-title {
@@ -52,6 +92,14 @@ body {
   line-height: 100%;
 }
 
+.hero-star {
+  fill: #fff;
+}
+
+.achievements-section{
+  padding-bottom: 156px;
+}
+
 .achievements-subtitle {
   color: var(--text-color, #fff);
   text-align: center;
@@ -59,6 +107,8 @@ body {
   font-weight: 300;
   line-height: 120%;
   text-transform: uppercase;
+  text-align: start;
+  margin-bottom: 8px;
 }
 
 .achievements-title {
@@ -68,6 +118,25 @@ body {
   font-weight: 400;
   line-height: 120%;
   letter-spacing: 1.6px;
+  margin-bottom: 48px;
+}
+
+.achievements-list{
+  display: flex;
+  gap: 30px;
+}
+
+.achievements-item{
+  width: 350px;
+  height: 306px;
+  padding: 16px;
+}
+
+.achievements-article{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .achievements-number {
@@ -315,6 +384,3 @@ form-comment {
 }
 
 
-.hero-star {
-  fill: #fff;
-}
