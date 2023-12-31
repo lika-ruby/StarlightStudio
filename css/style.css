@@ -20,7 +20,7 @@ body {
   margin-right: auto;
 }
 
-header{
+header {
   padding-top: 24px;
 }
 
@@ -32,7 +32,7 @@ header{
   margin-right: 151px;
 }
 
-.header-list{
+.header-list {
   display: flex;
   justify-content: center;
   gap: 16px;
@@ -56,27 +56,27 @@ header{
   line-height: 120%;
   letter-spacing: 0.36px;
   text-transform: uppercase;
-  background-color: #FFF;
+  background-color: #fff;
   border-radius: 24px;
   border: none;
   padding: 16px 24px;
 }
 
-.header-navigation{
+.header-navigation {
   display: flex;
   align-items: center;
 }
 
-.header-container{
+.header-container {
   display: flex;
   align-items: center;
 }
 
-.header-svg{
+.header-svg {
   margin-right: 8px;
 }
 
-.hero-section{
+.hero-section {
   padding-top: 130px;
   padding-bottom: 208px;
   background-image: url(../images/backgroundhero.png);
@@ -96,7 +96,7 @@ header{
   fill: #fff;
 }
 
-.achievements-section{
+.achievements-section {
   padding-bottom: 156px;
 }
 
@@ -121,18 +121,18 @@ header{
   margin-bottom: 48px;
 }
 
-.achievements-list{
+.achievements-list {
   display: flex;
   gap: 30px;
 }
 
-.achievements-item{
+.achievements-item {
   width: 350px;
   height: 306px;
   padding: 16px;
 }
 
-.achievements-article{
+.achievements-article {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -158,9 +158,13 @@ header{
   letter-spacing: 0.96px;
 }
 
+.services {
+  padding-bottom: 156px;
+}
+
 .services-paragraph {
   color: var(--text-color, #fff);
-  text-align: center;
+  margin-bottom: 8px;
   font-size: 16px;
   font-weight: 300;
   line-height: 120%;
@@ -174,6 +178,18 @@ header{
   font-weight: 400;
   line-height: 120%;
   letter-spacing: 1.6px;
+  margin-bottom: 48px;
+}
+
+.services-item {
+  border-top: 1px solid #fff;
+  display: flex;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.services-item:last-child {
+  border-bottom: 1px solid #fff;
 }
 
 .services-number {
@@ -184,12 +200,26 @@ header{
   text-transform: uppercase;
 }
 
+.services-box {
+  width: 324px;
+}
+
+.services-number {
+  margin-right: 426px;
+}
+
 .services-subtitle {
   color: var(--text-color, #fff);
+  width: 216px;
   font-size: 24px;
   font-weight: 400;
   line-height: 140%;
   letter-spacing: 0.24px;
+}
+
+.services-star {
+  display: block;
+  margin-left: auto;
 }
 
 .services-text {
@@ -382,5 +412,3 @@ form-comment {
   line-height: 120%;
   letter-spacing: 0.1px;
 }
-
-
