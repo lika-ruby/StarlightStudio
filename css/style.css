@@ -130,6 +130,15 @@ header {
   width: 350px;
   height: 306px;
   padding: 16px;
+  background-image: url(../images/achievements1.webp);
+}
+
+.achievements-item:nth-child(2) {
+  background-image: url(../images/achievements2.webp);
+}
+
+.achievements-item:last-child {
+  background-image: url(../images/achievements3.webp);
 }
 
 .achievements-article {
@@ -186,6 +195,14 @@ header {
   display: flex;
   padding-top: 16px;
   padding-bottom: 16px;
+}
+
+.services-item:first-child>.services-star {
+transform: rotate(45deg);
+}
+
+.services-star {
+  fill: #fff;
 }
 
 .services-item:last-child {
@@ -285,6 +302,7 @@ header {
 }
 .works-info {
   padding-top: 16px;
+  outline: solid yellow;
 }
 
 .works-text {
@@ -313,6 +331,8 @@ header {
   line-height: 140%;
   letter-spacing: 0.64px;
   align-self: stretch;
+  
+  outline: solid green;
 }
 
 .works-codi {
@@ -322,6 +342,29 @@ header {
   line-height: 120%;
   text-transform: uppercase;
   margin-bottom: 20px;
+}
+
+.codi-wrapper {
+  padding-top: 138px;
+  padding-left: 320px;
+}
+
+.codi-wrap {
+  outline: solid red;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  max-width: 46px;
+  
+}
+
+.codi-full {
+  fill: transparent;
+  stroke: #171717;
+}
+
+.codi-item:first-child>.codi-full {
+  fill: #171717;
 }
 /* advantages */
 .advantages {
