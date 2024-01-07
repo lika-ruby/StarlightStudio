@@ -400,9 +400,17 @@ transform: rotate(45deg);
 }
 .advantages-item:not(:last-child) {
   max-width: 255px;
+  
 }
-.advantages-item {
-  width: 100%;
+
+
+.advantages-item:last-child {
+flex-grow: 1;
+background-color: var(--title-color);
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+
 }
 
 .advantages-number {
@@ -445,9 +453,24 @@ transform: rotate(45deg);
   text-transform: uppercase;
 }
 
+.feedback-article{
+  display: flex;
+  gap: 45px;
+  margin-bottom: 72px;
+}
+
+.feedback-person{
+display: flex;
+}
+
+
+
+
+
+
+
 .feedback-title {
   color: var(--text-color, #fff);
-  text-align: center;
   font-size: 16px;
   font-weight: 300;
   line-height: 120%;
@@ -469,6 +492,7 @@ transform: rotate(45deg);
   font-weight: 500;
   line-height: 120%;
   text-transform: uppercase;
+  margin-bottom: 8px;
 }
 
 .feedback-paragraph {
