@@ -1,0 +1,21 @@
+.codi-wrapper {
+    padding-top: 138px;
+    padding-left: 320px;
+  }
+  
+  .codi-wrap {
+    outline: solid red;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    max-width: 46px;
+  }
+  
+  .codi-full {
+    fill: transparent;
+    stroke: #171717;
+  }
+  
+  .codi-item:first-child > .codi-full {
+    fill: #171717;
+  }

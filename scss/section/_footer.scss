@@ -1,0 +1,32 @@
+.footer {
+    padding-bottom: 24px;
+}
+
+.footer-box {
+    padding-bottom: 24px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-list {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-section {
+    border-top: solid grey 1px;
+    padding-top: 26px;
+}
+
+.footer-info {
+    color: var(--logo-color);
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 120%;
+    letter-spacing: 0.1px;
+    text-align: left;
+}
