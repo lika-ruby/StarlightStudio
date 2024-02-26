@@ -2,7 +2,7 @@
     padding-bottom: 156px;
   }
   .works-subtitle {
-    color: var(--text-color, #fff);
+    color: $text-color;
     font-size: 16px;
     font-weight: 300;
     line-height: 120%;
@@ -12,7 +12,7 @@
   
   .works-title {
     width: 538.544px;
-    color: var(--text-color, #fff);
+    color: $text-color;
     font-size: 40px;
     font-weight: 400;
     line-height: 120%;
@@ -72,7 +72,7 @@
   }
   
   .works-paragraph {
-    color: var(--bg-color, #171717);
+    color: $bg-color, #171717;
     font-family: Open Sans;
     font-size: 16px;
     font-weight: 400;
@@ -80,11 +80,11 @@
     letter-spacing: 0.64px;
     align-self: stretch;
   
-    outline: solid green;
+    
   }
   
   .works-codi {
-    color: var(--bg-color, #171717);
+    color: $bg-color, #171717;
     font-size: 20px;
     font-weight: 400;
     line-height: 120%;

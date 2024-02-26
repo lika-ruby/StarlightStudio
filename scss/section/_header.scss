@@ -6,7 +6,7 @@ header {
     display: flex;
     width: 199px;
     height: 36px;
-    fill: var(--white-1, #fff);
+    fill: $title-color;
     margin-right: 151px;
 }
 
@@ -18,7 +18,7 @@ header {
 }
 
 .header-link {
-    color: var(--text-color, #fff);
+    color: $text-color ;
     font-size: 16px;
     font-weight: 500;
     line-height: 120%;

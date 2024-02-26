@@ -4,7 +4,7 @@
   }
   
   .services-paragraph {
-    color: var(--text-color, #fff);
+    color: $text-color;
     margin-bottom: 8px;
     font-size: 16px;
     font-weight: 300;
@@ -14,7 +14,7 @@
   
   .services-title {
     width: 540px;
-    color: var(--text-color, #fff);
+    color: $text-color;
     font-size: 40px;
     font-weight: 400;
     line-height: 120%;
@@ -42,7 +42,7 @@
   }
   
   .services-number {
-    color: var(--text-color, #fff);
+    color: $text-color;
     font-size: 20px;
     font-weight: 500;
     line-height: 120%;
@@ -58,7 +58,7 @@
   }
   
   .services-subtitle {
-    color: var(--text-color, #fff);
+    color: $text-color;
     width: 216px;
     font-size: 24px;
     font-weight: 400;
@@ -73,7 +73,7 @@
   
   .services-text {
     width: 324px;
-    color: var(--text-color, #fff);
+    color: $text-color;
     font-family: Open Sans;
     font-size: 16px;
     font-weight: 300;

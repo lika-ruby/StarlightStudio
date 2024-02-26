@@ -9,7 +9,7 @@
 }
 
 .feedback-title {
-    color: var(--text-color, #fff);
+    color: $text-color;
     font-size: 16px;
     font-weight: 300;
     line-height: 120%;
@@ -18,7 +18,7 @@
 
 .feedback-text {
     width: 920px;
-    color: var(--text-color, #fff);
+    color: $text-color;
     font-size: 40px;
     font-weight: 400;
     line-height: 120%;
@@ -27,7 +27,7 @@
 }
 
 .feedback-name {
-    color: var(--text-color, #fff);
+    color: $text-color;
     font-size: 16px;
     font-weight: 500;
     line-height: 120%;
@@ -36,7 +36,7 @@
 }
 
 .feedback-paragraph {
-    color: var(--text-color, #fff);
+    color: $text-color;
     font-size: 16px;
     font-weight: 300;
     line-height: 120%;

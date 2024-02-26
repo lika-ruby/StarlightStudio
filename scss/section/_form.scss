@@ -1,5 +1,5 @@
 .form-title {
-    color: var(--bg-color, #171717);
+    color: $bg-color, #171717;
     font-size: 40px;
     font-weight: 400;
     line-height: 120%;
@@ -21,7 +21,7 @@
   .form-mail,
   .form-phone,
   .form-comment {
-    color: var(--contacts-color) #686868;
+    color: $contacts-color, #686868;
     font-size: 18px;
     font-weight: 400;
     line-height: 120%;
@@ -34,7 +34,7 @@
   }
   
   .form-btn {
-    color: var(--text-color, #fff);
+    color: $text-color;
     text-align: center;
     font-size: 18px;
     font-weight: 400;
