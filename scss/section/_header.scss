@@ -1,5 +1,8 @@
 header {
-    padding-top: 24px;
+    padding-top: 14px;
+    @media screen and (min-width: 720px){
+        padding-top: 24px;
+    }
 }
 
 .header-logo {
@@ -11,10 +14,13 @@ header {
 }
 
 .header-list {
-    display: flex;
+    display: none;
     justify-content: center;
     gap: 16px;
     margin-right: 237px;
+    @media screen and (min-width: 1200px){
+        display: flex;
+    }
 }
 
 .header-link {
@@ -45,7 +51,6 @@ header {
     align-items: center;
     margin-left: auto;
 }
-
 .header-container {
     display: flex;
     align-items: center;
@@ -68,4 +73,8 @@ header {
 
 .logo-word {
     fill: #FFFFFF;
+    display: none;
+    @media screen and (min-width: 720px){
+        display: block;
+    }
 }
