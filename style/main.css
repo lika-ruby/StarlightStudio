@@ -130,19 +130,42 @@ header {
 }
 
 .hero-section {
-  padding-top: 130px;
-  padding-bottom: 208px;
+  padding-top: 210px;
+  padding-bottom: 278px;
   background-image: url(../images/backgroundhero.png);
   background-position: center;
   background-repeat: no-repeat;
 }
+@media screen and (min-width: 720px) {
+  .hero-section {
+    padding-top: 182px;
+    padding-bottom: 260px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-section {
+    padding-top: 130px;
+    padding-bottom: 208px;
+  }
+}
 
 .hero-title {
-  width: 920px;
+  max-width: 920px;
   color: #fff;
-  font-size: 128px;
-  font-weight: 500;
+  font-size: 64px;
+  font-weight: 400;
   line-height: 100%;
+}
+@media screen and (min-width: 720px) {
+  .hero-title {
+    font-size: 96px;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero-title {
+    font-size: 128px;
+  }
 }
 
 .hero-star {
