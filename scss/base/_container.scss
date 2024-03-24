@@ -5,6 +5,9 @@
     outline: solid red;
     margin-left: auto;
     margin-right: auto;
+    @media screen and (min-width: 360px){
+        max-width: 360px
+    }
     @media screen and (min-width: 720px){
         max-width: 720px
     }
