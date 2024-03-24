@@ -18,7 +18,14 @@
 
 .footer-section {
     border-top: solid grey 1px;
-    padding-top: 26px;
+    padding-top: 57px;
+    @media screen and (min-width: 720px) {
+        padding-top: 22px;
+    }
+    
+    @media screen and (min-width: 1200px) {
+        padding-top: 26px;
+    }
 }
 
 .footer-info {
