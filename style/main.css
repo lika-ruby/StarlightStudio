@@ -295,8 +295,14 @@ header {
 }
 
 .services {
-  padding-top: 156px;
-  padding-bottom: 156px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+@media screen and (min-width: 768px) {
+  .services {
+    padding-top: 156px;
+    padding-bottom: 156px;
+  }
 }
 
 .services-paragraph {
@@ -309,20 +315,53 @@ header {
 }
 
 .services-title {
-  width: 540px;
+  width: 312px;
   color: #fff;
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 400;
   line-height: 120%;
   letter-spacing: 1.6px;
   margin-bottom: 48px;
 }
+@media screen and (min-width: 768px) {
+  .services-title {
+    width: 540px;
+    font-size: 40px;
+  }
+}
 
 .services-item {
+  position: relative;
   border-top: 1px solid #fff;
   display: flex;
   padding-top: 16px;
   padding-bottom: 16px;
+  align-items: flex-start;
+  padding-left: 48px;
+}
+@media screen and (min-width: 768px) {
+  .services-item {
+    padding-left: 212px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .services-item {
+    padding-left: 447px;
+  }
+}
+
+.services-item:first-child {
+  padding-left: 28px;
+}
+@media screen and (min-width: 768px) {
+  .services-item:first-child {
+    padding-left: 212px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .services-item:first-child {
+    padding-left: 447px;
+  }
 }
 
 .services-item:first-child > .services-star {
@@ -338,24 +377,44 @@ header {
 }
 
 .services-number {
+  position: absolute;
+  top: 22px;
+  left: 0;
   color: #fff;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 120%;
   text-transform: uppercase;
 }
-
-.services-box {
-  width: 324px;
+@media screen and (min-width: 768px) {
+  .services-number {
+    margin-right: 197px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .services-number {
+    font-size: 20px;
+    margin-right: 428px;
+  }
 }
 
-.services-number {
-  margin-right: 426px;
+.services-box {
+  max-width: 211px;
+}
+@media screen and (min-width: 768px) {
+  .services-box {
+    max-width: 268px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .services-box {
+    max-width: 324px;
+  }
 }
 
 .services-subtitle {
   color: #fff;
-  width: 216px;
+  max-width: 216px;
   font-size: 24px;
   font-weight: 400;
   line-height: 140%;
@@ -365,10 +424,10 @@ header {
 .services-star {
   display: block;
   margin-left: auto;
+  flex-shrink: 0;
 }
 
 .services-text {
-  width: 324px;
   color: #fff;
   font-family: Open Sans;
   font-size: 16px;
