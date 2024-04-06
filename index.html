@@ -54,7 +54,7 @@
           </ul>
           <a class="header-btn" href="">Get in touch</a>
         </nav>
-        <button class="header-burger">
+        <button data-menu-open class="header-burger">
           <svg class="header-burger-icon">
             <use href="./images/symbol-defs.svg#icon-burg"></use>
           </svg>
@@ -455,5 +455,41 @@
         </div>
       </section>
     </footer>
+    <div class="backdrop is-hidden" data-menu>
+      <div class="modal">
+        <div class="container modal-container">
+          <div class="modal-header">
+            <a class="logo" href="./index.html">
+              <svg width="25" height="34" class="logo-icon">
+                <use href="./images/symbol-defs.svg#icon-stars"></use>
+              </svg>
+              <svg width="199px" height="36px" class="logo-word">
+                <use href="./images/symbol-defs.svg#icon-StarlightStudio"></use>
+              </svg>
+            </a>
+            <button data-menu-close class="mobal-close-btn">
+              <svg class="modal-svg" width="40" height="40">
+                <use href="./images/symbol-defs.svg#cross"></use>
+              </svg>
+            </button>
+          </div>
+          <ul class="modal-nav">
+            <li class="modal-item">
+              <a href="#" class="modal-link">achievements</a>
+            </li>
+            <li class="modal-item">
+              <a href="#" class="modal-link">services</a>
+            </li>
+            <li class="modal-item">
+              <a href="#" class="modal-link">advantages</a>
+            </li>
+            <li class="modal-item">
+              <a href="#" class="modal-link">projects</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
